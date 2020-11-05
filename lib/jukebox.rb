@@ -60,7 +60,7 @@ elsif user_input == "help"
   help
 elsif user_input == "list"
   list(songs)
-else
+elsif user_input == "play"
   play(songs)
 
 
