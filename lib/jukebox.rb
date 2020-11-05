@@ -38,7 +38,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_input=gets.strip
     if (1...songs.length).include?(user_input.to_i)
-      binding.pry
+      # binding.pry
     end
 
 end
