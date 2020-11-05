@@ -7,6 +7,7 @@
 # users_name = gets.strip
 #
 # puts say_hello(users_name)
+require 'pry'
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -36,6 +37,6 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_input=gets.strip
-
+  
 
 end
