@@ -42,7 +42,7 @@ def play(songs)
     elsif songs.include?(user_input)
       puts "Playing #{songs}"
     else
-      puts "Invalid input"
+      puts "Invalid input, please try again"
       # binding.pry
     end
 
