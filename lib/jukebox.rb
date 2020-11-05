@@ -61,7 +61,7 @@ elsif user_input == "help"
 elsif user_input == "list"
   list(songs)
 else
-  play(song)
+  play(songs)
 
 
  end
