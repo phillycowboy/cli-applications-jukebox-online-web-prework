@@ -41,5 +41,5 @@ def play(songs)
     if (1...songs.length).include?(user_input.to_i)
       binding.pry
     end
-    
+
 end
